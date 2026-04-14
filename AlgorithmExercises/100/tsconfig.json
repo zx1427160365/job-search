@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    /* 基本配置 */
+    "target": "ES2024",                // 或 "ESNext"（若需实验性语法）
+    "module": "NodeNext",              // 支持现代 Node.js 的 ESM/CJS 自动解析
+    "moduleResolution": "NodeNext",    // 与 module 保持一致
+    "lib": ["ES2024", "DOM"]          // 包含最新 JS 标准库 + 浏览器 DOM（若为前端项目）
+
+//     /* 严格类型检查（强烈推荐） */
+//     "strict": false,
+//     "noImplicitAny": true,
+//     "strictNullChecks": true,
+//     "strictFunctionTypes": true,
+//     "strictBindCallApply": true,
+//     "strictPropertyInitialization": true,
+//     "noImplicitThis": true,
+//     "useUnknownInCatchVariables": true,
+
+//     /* 模块与输出 */
+//     "outDir": "./dist",
+//     "rootDir": "./",
+//     "esModuleInterop": true,           // 兼容 CommonJS 与 ES 模块
+//     "allowSyntheticDefaultImports": true,
+//     "resolveJsonModule": true,         // 允许导入 .json 文件
+
+//     /* 开发体验 */
+//     "sourceMap": true,
+//     "declaration": true,               // 生成 .d.ts 声明文件
+//     "declarationMap": true,
+//     "removeComments": false,
+
+//     /* 新特性支持 */
+//     "experimentalDecorators": true,    // 若使用装饰器（如 NestJS、Angular）
+//     "emitDecoratorMetadata": true,
+
+//     /* 路径映射（可选） */
+//     "baseUrl": "./",
+//     "paths": {
+//       "@/*": ["src/*"]
+//     },
+
+//     /* 其他 */
+//     "skipLibCheck": true,              // 跳过 .d.ts 库文件检查（加快编译）
+//     "forceConsistentCasingInFileNames": true
+  },
+//   "include": ["src/**/*"],
+//   "exclude": ["node_modules", "dist"]
+}
